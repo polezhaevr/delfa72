@@ -1,0 +1,224 @@
+* {
+    margin: 0;
+    padding: 0;
+    border: 0;
+}
+
+
+@font-face {
+    font-family: "Montserrat";
+    src: local("Montserrat-Medium"),
+        local("Montserrat Medium"),
+        url("../fonts/montserratmedium.woff") format("woff2"),
+        url("../fonts/montserratmedium.woff2") format("woff");
+    font-weight: 500;
+    font-style: normal;
+}
+
+
+@font-face {
+    font-family: "Roboto Bold";
+    src: local("Roboto-Bold"),
+        local("Roboto Bold"),
+        url("../fonts/robotobold.woff") format("woff2"),
+        url("../fonts/robotobold.woff2") format("woff");
+    font-weight: 400;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: "Roboto Regular";
+    src: local("Roboto-Regular"),
+        local("Roboto Regular"),
+        url("../fonts/robotoregular.woff") format("woff2"),
+        url("../fonts/robotoregular.woff2") format("woff");
+    font-weight: 400;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: "Roboto Light";
+    src: local("Roboto-Light"),
+        local("Roboto Light"),
+        url("../fonts/robotolight.woff") format("woff2"),
+        url("../fonts/robotolight.woff2") format("woff");
+    font-weight: 300;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: 'Segoe Print';
+    src: local("Roboto-Light"),
+        local("Roboto Light"),
+        url("../fonts/segoeprintbold.woff") format("woff2"),
+        url("../fonts/segoeprintbold.woff2") format("woff");
+    font-style: normal;
+    font-weight: 700;
+}
+
+.header {
+    min-width: 1140px;
+    background-image:
+        url(/img/background-image.png);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    height: 100vh;
+    max-width: 100%;
+    min-height: 320px;
+
+
+}
+
+.header__wrapper {
+    width: 1160px;
+    margin: 0 auto;
+
+}
+
+.header__nav {
+    display: flex;
+    justify-content: flex-end;
+    list-style: none;
+    padding-top: 49px;
+
+}
+
+.header__item {
+    padding-left: 60px;
+}
+
+.header__link {
+    font-family: "Roboto Regular";
+    text-decoration: none;
+    font-size: 16px;
+    line-height: 19px;
+    color: #ffff;
+}
+
+.header__link--btn {
+    border: 1px solid #ffff;
+    border-radius: 30px;
+    padding: 17px 30px;
+}
+
+.header__wrapper-title {
+    display: flex;
+    justify-content: space-between;
+}
+
+.header__title-container {
+    margin-top: 84px;
+}
+
+.header__wrapper-img {
+    margin-top: 106px;
+}
+
+.header__title {
+    font-family: "Roboto Light";
+    font-weight: 300;
+    font-size: 24px;
+    line-height: 28px;
+    color: #ffff;
+    margin: 0;
+}
+
+.header__title-main {
+    font-family: 'Montserrat';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 62px;
+    line-height: 76px;
+    color: #FFFFFF;
+    margin: 0;
+    margin-top: 28px;
+}
+
+.header__btn {
+    font-family: 'Roboto Regular';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 18px;
+    line-height: 21px;
+    color: #FF7024;
+    background-color: #ffff;
+    padding-left: 39px;
+    padding-right: 27px;
+    padding-top: 7px;
+    padding-bottom: 7px;
+    border-radius: 30px;
+    margin-top: 39px;
+
+}
+
+.header__btn-arrow {
+    fill: #ffff;
+    vertical-align: middle;
+    padding: 12px;
+    border-radius: 30px;
+    background-color: #FF5959;
+    margin-left: 32px;
+}
+
+.header__btn:hover {
+    background: linear-gradient(0deg, #FF7024, #FF7024);
+    box-shadow: 0px 4px 20px rgba(0, 0, 0, 0.25);
+    border-radius: 82px;
+    color: #FFFFFF;
+}
+
+.header__btn:hover .header__btn-arrow {
+    fill: #FF5959;
+    background-color: white;
+}
+
+.header__text {
+    font-family: "Roboto Light";
+    font-style: normal;
+    font-weight: 300;
+    font-size: 18px;
+    line-height: 21px;
+    color: #FFFFFF;
+    margin-top: 20px;
+}
+
+.header__wrapper-text {
+    display: flex;
+}
+
+
+.header__text-arrow {
+    font-family: 'Segoe Print';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 18px;
+    color: #FFFFFF;
+    align-self: flex-end;
+    padding-bottom: 15px;
+    padding-left: 19px;
+
+}
+
+.header__wrapper-text {
+    display: flex;
+    flex-direction: column;
+}
+
+.header__wrapper-arrow {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    margin-left: 34px;
+
+}
+
+.header__image-arrow-snake {
+    margin-top: 35px;
+    transform: rotate(10deg);
+}
+
+.header__wrapper-btn {
+    display: flex;
+}
+
