@@ -57,17 +57,15 @@
 }
 
 .header {
-    min-width: 1140px;
+    min-width: 1160px;
     background-image:
-        url(/img/background-image.png);
+        url(../img/background-image.png);
     background-repeat: no-repeat;
     background-size: cover;
     background-position: center;
     height: 100vh;
     max-width: 100%;
-    min-height: 320px;
-
-
+    
 }
 
 .header__wrapper {
@@ -81,7 +79,6 @@
     justify-content: flex-end;
     list-style: none;
     padding-top: 49px;
-
 }
 
 .header__item {
