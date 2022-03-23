@@ -63,9 +63,10 @@
     background-repeat: no-repeat;
     background-size: cover;
     background-position: center;
-    height: 100vh;
-    max-width: 100%;
+    min-height: 1597px;
     
+        
+
 }
 
 .header__wrapper {
