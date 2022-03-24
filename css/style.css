@@ -56,23 +56,24 @@
     font-weight: 700;
 }
 
-.header {
+
+.page-main {
     min-width: 1160px;
-    background-image:
-        url(../img/background-image.png);
+    margin: 0 auto;
+    background-image: url("/img/background-image.png");
     background-repeat: no-repeat;
-    background-size: cover;
-    background-position: center;
-    min-height: 1597px;
+    background-size:  cover;
+    background-position: top center;
+    min-height: 4500px;
+   
     
-        
 
 }
+  
 
-.header__wrapper {
+.header {
     width: 1160px;
     margin: 0 auto;
-
 }
 
 .header__nav {
@@ -218,5 +219,12 @@
 
 .header__wrapper-btn {
     display: flex;
+}
+
+.benefits {
+    width: 1160px;
+    margin: 0 auto;
+    
+    
 }
 
