@@ -58,21 +58,19 @@
 
 
 .page-main {
-    min-width: 1160px;
+    min-width: 1140px;
+    position: relative;
     margin: 0 auto;
     background-image: url("/img/background-image.png");
     background-repeat: no-repeat;
-    background-size:  cover;
+    background-size: contain;
     background-position: top center;
-    min-height: 4500px;
-   
-    
-
+    height: 3500px;
 }
-  
 
-.header {
-    width: 1160px;
+.page-main__container {
+    max-width: 1140px;
+    padding: 0px 15px;
     margin: 0 auto;
 }
 
@@ -127,7 +125,7 @@
     font-family: 'Montserrat';
     font-style: normal;
     font-weight: 700;
-    font-size: 62px;
+    font-size: 61px;
     line-height: 76px;
     color: #FFFFFF;
     margin: 0;
@@ -221,10 +219,173 @@
     display: flex;
 }
 
+/**Блок "Почему стоит <br> идти к нам?"**/
+
 .benefits {
-    width: 1160px;
-    margin: 0 auto;
+    margin-top: 270px;
+    display: flex;
+    justify-content: space-between;
+
+}
+
+.benefits__wrapper-info {
+    display: flex;
+    flex-direction: column;
+}
+
+.benefits__title {
+    font-family: "Montserrat";
+    font-style: normal;
+    font-weight: 500;
+    font-size: 48px;
+    line-height: 59px;
+    color: #334662;
+}
+
+.benefits__title--orange {
+    color: #FF7024;
+}
+
+.benefits__info-list {
+    width: 558px;
+    padding-top: 53px;
+}
+
+.benefits__info-item {
+    font-family: "Roboto Regular";
+    font-style: normal;
+    font-weight: 400;
+    font-size: 18px;
+    line-height: 150%;
+    color: #334662;
+    text-align: left;
+    padding-bottom: 38px;
+    list-style-type: none;
+}
+
+.benefits__info-item--position {
+    list-style-type: none;
+}
+
+.benefits__info-item img {
+    position: relative;
+    margin-left: -10px;
+    left: -10px;
+    bottom: 2px;
+}
+
+.benefits__text {
+    font-family: "Roboto Regular";
+    font-style: normal;
+    font-weight: 400;
+    font-size: 18px;
+    line-height: 150%;
+    color: #334662;
+    padding-left: 10px;
+}
+
+.benefits__info-item-img {
+    position: relative;
+    left: 500px;
+    bottom: 80px;
+}
+
+.benefits__wrapper-functional {
+    position: relative;
+    bottom: 50px;
+    display: flex;
+    flex-direction: column;
+}
+
+
+.benefits__brand-list {
+    width: 300px;
+    display: flex;
+    flex-wrap: wrap;
+    list-style: none;
+    margin-top: 22px;
+}
+
+.benefits__brand-item {
+    width: 150px;
+    height: 50px;
+    display: flex;
+    align-items: left;
+    justify-content: center;
+}
+
+.benefits__functional-list {
+    width: 460px;
+    display: flex;
+    flex-wrap: wrap;
+    margin-top: 93px;
+    list-style: none;
+}
+
+.benefits__functional-text {
+    font-family: 'Roboto Bold';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 16.5832px;
+    line-height: 19px;
+    color: #334662;
+    margin-top: 36px;
+}
+
+.benefits__functional-item {
+    width: 221px;
+    height: 221px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    margin-right: 18px;
+    margin-bottom: 32px;
+    background: #FFFFFF;
+    transition: transform .90s;
+}
+
+.benefits__functional-item:nth-child(1){
+    box-shadow: 0px 3.68515px 18.4258px rgba(0, 0, 0, 0.25);
+    border-radius: 43.3005px 43.3005px 0px 43.3005px;
+}
+
+.benefits__functional-item:hover {
+    transform: scale(1.2);
     
+    transition: transform .9s;
+}
+
+.benefits__functional-item.r-b {
+    transform-origin: right bottom;
+  }
+
+.benefits__functional-item.l-b {
+    transform-origin: left bottom;
+  }
+
+.benefits__functional-item.r-t {
+    transform-origin: right top;
+  }
+
+.benefits__functional-item. {
+    transform-origin: left top;
+  }
+
+.benefits__functional-item:nth-child(2){
+    box-shadow: 0px 3.68515px 18.4258px rgba(0, 0, 0, 0.25);
+    border-radius: 43.3005px 43.3005px 43.3005px 0px;
+    margin-right: 0px;
+}
+
+.benefits__functional-item:nth-child(3){
+    box-shadow: 0px 3.68515px 18.4258px rgba(0, 0, 0, 0.25);
+    border-radius: 43.3005px 0px 43.3005px 43.3005px;
     
 }
 
+.benefits__functional-item:nth-child(4){
+    box-shadow: 0px 3.68515px 18.4258px rgba(0, 0, 0, 0.25);
+    border-radius: 0px 43.3005px 43.3005px 43.3005px;
+    margin-right: 0px;
+}
