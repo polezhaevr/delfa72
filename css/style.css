@@ -58,20 +58,22 @@
 
 
 .page-main {
-    min-width: 1140px;
-    position: relative;
-    margin: 0 auto;
+    min-width: 2022px;
+
     background-image: url("/img/background-image.png");
     background-repeat: no-repeat;
     background-size: contain;
     background-position: top center;
-    height: 3500px;
+    bottom: 140px;
+    height: 3880px;
 }
 
 .page-main__container {
+    position: relative;
     max-width: 1140px;
     padding: 0px 15px;
     margin: 0 auto;
+
 }
 
 .header__nav {
@@ -86,7 +88,7 @@
 }
 
 .header__link {
-    font-family: "Roboto Regular";
+    font-family: "Roboto Regular", sans-serif;
     text-decoration: none;
     font-size: 16px;
     line-height: 19px;
@@ -113,7 +115,7 @@
 }
 
 .header__title {
-    font-family: "Roboto Light";
+    font-family: "Roboto Light", sans-serif;
     font-weight: 300;
     font-size: 24px;
     line-height: 28px;
@@ -122,7 +124,7 @@
 }
 
 .header__title-main {
-    font-family: 'Montserrat';
+    font-family: 'Montserrat', sans-serif;
     font-style: normal;
     font-weight: 700;
     font-size: 61px;
@@ -133,7 +135,7 @@
 }
 
 .header__btn {
-    font-family: 'Roboto Regular';
+    font-family: 'Roboto Regular', sans-serif;
     font-style: normal;
     font-weight: 400;
     font-size: 18px;
@@ -171,7 +173,7 @@
 }
 
 .header__text {
-    font-family: "Roboto Light";
+    font-family: "Roboto Light", sans-serif;
     font-style: normal;
     font-weight: 300;
     font-size: 18px;
@@ -186,7 +188,7 @@
 
 
 .header__text-arrow {
-    font-family: 'Segoe Print';
+    font-family: 'Segoe Print', sans-serif;
     font-style: normal;
     font-weight: 700;
     font-size: 18px;
@@ -219,10 +221,10 @@
     display: flex;
 }
 
-/**Блок "Почему стоит <br> идти к нам?"**/
+/**Блок "Почему стоит идти к нам?"**/
 
 .benefits {
-    margin-top: 270px;
+    margin-top: 280px;
     display: flex;
     justify-content: space-between;
 
@@ -234,7 +236,7 @@
 }
 
 .benefits__title {
-    font-family: "Montserrat";
+    font-family: "Montserrat", sans-serif;
     font-style: normal;
     font-weight: 500;
     font-size: 48px;
@@ -252,7 +254,7 @@
 }
 
 .benefits__info-item {
-    font-family: "Roboto Regular";
+    font-family: "Roboto Regular", sans-serif;
     font-style: normal;
     font-weight: 400;
     font-size: 18px;
@@ -275,7 +277,7 @@
 }
 
 .benefits__text {
-    font-family: "Roboto Regular";
+    font-family: "Roboto Regular", sans-serif;
     font-style: normal;
     font-weight: 400;
     font-size: 18px;
@@ -286,8 +288,8 @@
 
 .benefits__info-item-img {
     position: relative;
-    left: 500px;
-    bottom: 80px;
+    left: 420px;
+    bottom: 10px;
 }
 
 .benefits__wrapper-functional {
@@ -323,7 +325,7 @@
 }
 
 .benefits__functional-text {
-    font-family: 'Roboto Bold';
+    font-family: 'Roboto Bold', sans-serif;
     font-style: normal;
     font-weight: 700;
     font-size: 16.5832px;
@@ -345,47 +347,169 @@
     transition: transform .90s;
 }
 
-.benefits__functional-item:nth-child(1){
+.benefits__functional-item:nth-child(1) {
     box-shadow: 0px 3.68515px 18.4258px rgba(0, 0, 0, 0.25);
     border-radius: 43.3005px 43.3005px 0px 43.3005px;
 }
 
 .benefits__functional-item:hover {
     transform: scale(1.2);
-    
+
     transition: transform .9s;
 }
 
 .benefits__functional-item.r-b {
     transform-origin: right bottom;
-  }
+}
 
 .benefits__functional-item.l-b {
     transform-origin: left bottom;
-  }
+}
 
 .benefits__functional-item.r-t {
     transform-origin: right top;
-  }
+}
 
-.benefits__functional-item. {
+.benefits__functional-item {
     transform-origin: left top;
-  }
+}
 
-.benefits__functional-item:nth-child(2){
+.benefits__functional-item:nth-child(2) {
     box-shadow: 0px 3.68515px 18.4258px rgba(0, 0, 0, 0.25);
     border-radius: 43.3005px 43.3005px 43.3005px 0px;
     margin-right: 0px;
 }
 
-.benefits__functional-item:nth-child(3){
+.benefits__functional-item:nth-child(3) {
     box-shadow: 0px 3.68515px 18.4258px rgba(0, 0, 0, 0.25);
     border-radius: 43.3005px 0px 43.3005px 43.3005px;
-    
+
 }
 
-.benefits__functional-item:nth-child(4){
+.benefits__functional-item:nth-child(4) {
     box-shadow: 0px 3.68515px 18.4258px rgba(0, 0, 0, 0.25);
     border-radius: 0px 43.3005px 43.3005px 43.3005px;
     margin-right: 0px;
+}
+
+/*  Блок направления курса */
+.directions {
+    display: flex;
+    flex-direction: column;
+    margin-top: 100px
+}
+
+.directions__content {
+    display: flex;
+    flex-direction: column;
+}
+
+.directions__title {
+    font-family: 'Montserrat', sans-serif;
+    font-style: normal;
+    font-weight: 500;
+    font-size: 48px;
+    line-height: 59px;
+    color: #FFFFFF;
+    text-align: left;
+}
+
+
+.directions__title--orange {
+    color: #FFC924;
+}
+
+.directions__text {
+    font-family: 'Roboto Regular', sans-serif;
+    font-style: normal;
+    font-weight: 400;
+    font-size: 18px;
+    line-height: 150%;
+    color: #FFFFFF;
+    padding-top: 17px;
+}
+
+.directions__tabs {
+    display: flex;
+    flex-direction: column;
+    margin-top: 56px;
+}
+
+.directions__nav {}
+
+.directions__nav-bt {
+    position: relative;
+    font-family: 'Roboto Regular', sans-serif;
+    font-style: normal;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 19px;
+    color: #FFFFFF;
+    background: transparent;
+    margin-right: 56px;
+    padding: 17px 0px;
+}
+
+.directions__nav-bt:focus {
+    
+    background: rgba(255, 255, 255, 0.1);
+    border: 1px solid #FFFFFF;
+    box-sizing: border-box;
+    border-radius: 30px;
+    padding: 17px 33px;
+}
+
+.directions__slider-item {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    width: 260px;
+    height: 281px;
+    background: #FFFFFF;
+    box-shadow: 0 0 10px rgba(0.5, 0.5, 0.5, 0.5);
+    border-radius: 43px;
+    margin-top: 200px;
+    padding: 0 40px;
+    margin-right: 40px;
+}
+
+.directions__slider {
+    display: flex;
+    overflow: visible;
+    width: 100%;
+    overflow-x: hidden;
+    width: 1580px;
+    padding-bottom: 5px;
+}
+
+.directions__text-slider {
+    position: relative;
+    bottom: 25%;
+    font-family: 'Roboto Bold', sans-serif;
+    font-style: normal;
+    font-weight: 700;
+    font-size: 18px;
+    line-height: 21px;
+    color: rgba(51, 70, 98, 0.5);
+    padding-top: 21px;
+    padding-bottom: 12px;
+    text-align: center;
+}
+
+.directions__link {
+    position: relative;
+    bottom: 25%;
+    font-family: 'Roboto Bold';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 18px;
+    line-height: 21px;
+    text-decoration: none;
+    color: #334662;
+}
+
+.directions__img {
+    position: relative;
+    bottom: 25%;
 }
