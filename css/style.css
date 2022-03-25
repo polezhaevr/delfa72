@@ -58,7 +58,8 @@
 
 
 .page-main {
-    min-width: 100%;
+    min-width: 1140px;
+    padding: 0px 15px;
     margin:0 auto;
     background-color: #F3F6FB;
     background-image: url("../img/background-image.png");
@@ -66,6 +67,7 @@
     background-size: contain;
     background-position: top center;
     height: 3880px;
+    overflow-x:hidden;
 }
 
 .page-main__container {
