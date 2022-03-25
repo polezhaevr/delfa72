@@ -60,7 +60,7 @@
 .page-main {
     min-width: 2022px;
 
-    background-image: url("/img/background-image.png");
+    background-image: url("../img/background-image.png");
     background-repeat: no-repeat;
     background-size: contain;
     background-position: top center;
