@@ -54,25 +54,31 @@
         url("../fonts/segoeprintbold.woff2") format("woff");
     font-style: normal;
     font-weight: 700;
+    
 }
 
 
 .page-main {
+    min-width: 2022px;
     background-color: #F3F6FB;
     background-image: url("../img/background-image.png");
     background-repeat: no-repeat;
-    background-size: 2022px;
+    background-size: contain;
     background-position: top center;
     height: 3880px;
-    overflow-x:hidden;
+     margin: 0 auto;
+     overflow-x:hidden;
+   
 }
 
 .page-main__container {
     max-width: 1140px;
     padding: 0px 15px;
     margin: 0 auto;
-    
+
 }
+
+/*Хедер*/
 
 .header__nav {
     display: flex;
@@ -390,6 +396,7 @@
 }
 
 /*  Блок направления курса */
+
 .directions {
     display: flex;
     flex-direction: column;
@@ -428,8 +435,8 @@
 
 .img {
     display: flex;
-    width:179px;
-    height:251px;
+    width: 179px;
+    height: 251px;
 }
 
 
@@ -597,4 +604,87 @@
 
 .directions__slider-arrow:hover .directions__dots-svg {
     fill: #FFFFFF;
+}
+
+/*Блок галлерея*/
+
+.gallery {
+    display: flex;
+    flex-direction: column;
+    margin-top: 91px;
+}
+
+.gallery__container-one {
+    display: flex;
+    align-items:flex-end;
+}
+
+.gallery__img-back {
+    position: relative;
+    right: 80px;
+    top: 20px;
+}
+
+.gallery-container-two {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    margin-top: 42px;
+}
+
+.gallery__container-img {
+    width: 260px;
+    height: 249px;
+    border-radius: 43px;
+    background-color: #334662;
+}
+
+.gallery__container-img--width {
+    display: flex;
+    width: 560px;
+    height: 399px;
+    border-radius: 43px;
+    background-color: #334662;
+}
+
+.gallery__img {
+    width: 100%;
+    height: 100%;
+    border-radius: 43px;
+}
+
+.gallery__container-img:last-child {
+    position: relative;
+    bottom: 100px;
+}
+
+.gallery__list {
+    list-style: none;
+    margin-left: 42px
+}
+
+.gallery__item:nth-child(2){
+    margin-top:15px;
+}
+
+.gallery-text {
+    font-family: 'Roboto Regular', sans-serif;
+    font-style: normal;
+    font-weight: 400;
+    font-size: 18px;
+    line-height: 27px;
+    color: rgba(51, 70, 98, 0.7);
+}
+
+.gallery__title {
+    font-family: 'Montserrat', sans-serif;
+    font-style: normal;
+    font-weight: 500;
+    font-size: 48px;
+    line-height: 59px;
+    color: #334662;
+}
+
+.gallery__title--purple {
+    color: #5C4EFF;
 }
