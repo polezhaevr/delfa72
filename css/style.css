@@ -58,7 +58,6 @@
 
 
 .page-main {
-
     background-color: #F3F6FB;
     background-image: url("../img/background-image.png");
     background-repeat: no-repeat;
@@ -427,13 +426,18 @@
     padding-top: 17px;
 }
 
+.img {
+    display: flex;
+    width:179px;
+    height:251px;
+}
+
+
 .directions__tabs {
     display: flex;
     flex-direction: column;
     margin-top: 56px;
 }
-
-.directions__nav {}
 
 .directions__nav-bt-marker:focus {
     display: active;
