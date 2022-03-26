@@ -71,6 +71,8 @@
    
 }
 
+
+
 .page-main__container {
     width: 1140px;
     padding: 0px 15px;
@@ -686,4 +688,37 @@
 
 .gallery__title--purple {
     color: #5C4EFF;
+}
+
+
+
+
+@media screen and (max-width: 1920px) {
+    .page-main {
+        min-width: 1900px;
+        background-color: #F3F6FB;
+        background-image: url("../img/background-image.png");
+        background-repeat: no-repeat;
+        background-size: contain;
+        background-position: top center;
+        height: 3880px;
+        margin: 0 auto;
+        
+    }
+
+    .header__wrapper-title {
+        margin-top: -22px;
+    }
+
+    .benefits {
+        margin-top: 200px;      
+   } 
+
+   .directions__wrapper {
+       margin-top: -30px;
+   }
+
+   .gallery {
+       margin-top: 15px
+   }
 }
