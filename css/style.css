@@ -66,16 +66,15 @@
     background-size: contain;
     background-position: top center;
     height: 3880px;
-     margin: 0 auto;
-     overflow-x:hidden;
+    margin: 0 auto;
+    overflow-x:hidden;
    
 }
 
 .page-main__container {
-    max-width: 1140px;
+    width: 1140px;
     padding: 0px 15px;
     margin: 0 auto;
-
 }
 
 /*Хедер*/
