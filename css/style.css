@@ -54,9 +54,12 @@
         url("../fonts/segoeprintbold.woff2") format("woff");
     font-style: normal;
     font-weight: 700;
-    
+
 }
 
+.page__delfa {
+    background-color: #F3F6FB;
+}
 
 .page-main {
     min-width: 2022px;
@@ -67,8 +70,6 @@
     background-position: top center;
     height: 3880px;
     margin: 0 auto;
-    overflow-x:hidden;
-   
 }
 
 
@@ -77,6 +78,7 @@
     width: 1140px;
     padding: 0px 15px;
     margin: 0 auto;
+    padding-bottom: 100px;
 }
 
 /*Хедер*/
@@ -617,7 +619,7 @@
 
 .gallery__container-one {
     display: flex;
-    align-items:flex-end;
+    align-items: flex-end;
 }
 
 .gallery__img-back {
@@ -664,8 +666,8 @@
     margin-left: 42px
 }
 
-.gallery__item:nth-child(2){
-    margin-top:15px;
+.gallery__item:nth-child(2) {
+    margin-top: 15px;
 }
 
 .gallery-text {
@@ -690,8 +692,111 @@
     color: #5C4EFF;
 }
 
+/*Блок получи консультацию*/
+
+.consultation {
+    display: flex;
+    align-items: center;
+    width: 1140px;
+    padding: 0px 15px;
+    height: 362px;
+    background-image: url("../img/background-form.png");
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    border-radius: 43px;
+    margin: 0 auto;
+
+}
+
+.consultation-list {
+    position: relative;
+    list-style: none;
+    padding-left: 101px;
+}
+
+.consultation-title {
+    font-family: 'Montserrat';
+    font-style: normal;
+    font-weight: 500;
+    font-size: 48px;
+    line-height: 59px;
+    margin-top: 0px;
+    margin-bottom: 0px;
+    color: #FFFFFF;
+    
+}
+
+.consultation-title--orange {
+    color: #FFD22C;
+}
+
+.consultation-text {
+    font-family: 'Roboto Regular';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 18px;
+    line-height: 150%;
+    color: #FFFFFF;
+    margin-top: 25px;
+}
+
+.consultation__igm {
+    flex: none;
+    position: relative;
+    bottom: 200px;
+    left:55px;
+ 
+}
+
+.consultation__btn {
+    margin-top:57px;
+    padding-right: 15px;
+}
+
+.consultation__form {
+    display: flex;
+    flex-direction: column;
+    position: relative;
+    left: 130px;
+    top: 10px;
+}
+
+.consultation__input {
+    width: 274px;
+    background: transparent;
+    border: none;
+    border-bottom: 1px solid rgba(255, 255, 255, 0.7);
+    outline: none;
+    font-family: 'Roboto Regular';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 18px;
+    line-height: 150%;
+    color: rgba(255, 255, 255, 0.7);
+    
+}
+
+.consultation__input:nth-child(2) {
+    margin-top: 37px;
+}
+
+.consultation__input::placeholder {
+    font-family: 'Roboto Regular';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 18px;
+    line-height: 150%;
+    color: rgba(255, 255, 255, 0.7);
+}
 
 
+
+
+
+
+
+/*Медиа запросы*/
 
 @media screen and (max-width: 1920px) {
     .page-main {
@@ -703,7 +808,6 @@
         background-position: top center;
         height: 3880px;
         margin: 0 auto;
-        
     }
 
     .header__wrapper-title {
@@ -711,14 +815,14 @@
     }
 
     .benefits {
-        margin-top: 200px;      
-   } 
+        margin-top: 200px;
+    }
 
-   .directions__wrapper {
-       margin-top: -30px;
-   }
+    .directions__wrapper {
+        margin-top: -30px;
+    }
 
-   .gallery {
-       margin-top: 15px
-   }
+    .gallery {
+        margin-top: 15px
+    }
 }
