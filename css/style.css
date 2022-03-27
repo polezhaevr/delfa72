@@ -64,6 +64,7 @@
 
 .page-main {
     /*min-width: 2022px; */
+    min-width: 100%;
     background-color: #F3F6FB;
     background-image: url("../img/background-image.png");
     background-repeat: no-repeat;
@@ -71,7 +72,6 @@
     background-position: top center;
     height: 3880px;
     margin: 0 auto;
-
     width: 100% !important;
     max-width: 100% !important;
 }
@@ -82,7 +82,7 @@
     width: 1140px;
     padding: 0px 15px;
     margin: 0 auto;
-    padding-bottom: 100px;
+    padding-bottom: 300px;
 }
 
 /*Хедер*/
@@ -709,6 +709,7 @@
     background-position: center;
     border-radius: 43px;
     margin: 0 auto;
+    margin-top: 150px;
 
 }
 
